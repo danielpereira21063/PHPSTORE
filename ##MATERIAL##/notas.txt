@@ -1,0 +1,13 @@
+TABLE clientes (
+	id_cliente
+	email
+	senha
+	nome_completo
+	endereco
+	cidade
+	purl
+	ativo
+	created_at
+	updated_atRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	deleted_at
+)

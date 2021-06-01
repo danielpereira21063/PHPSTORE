@@ -3,7 +3,12 @@
 $routes = [
     'inicio'   => 'main@index',
     'loja'     => 'main@loja',
-    'carrinho' => 'loja@carrinho'
+
+    //clientes
+    'novo_cliente' => 'main@novo_cliente',
+
+    //carrinho
+    'carrinho' => 'main@carrinho',
 ];
 
 $action = 'inicio';
