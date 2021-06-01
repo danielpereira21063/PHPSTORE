@@ -1,0 +1,17 @@
+{
+    "name": "daniel/php_webstore",
+    "description": "Loja online em PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniel Sanches",
+            "email": "danielsanches6301@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "store": {
+            "core\\": "core/"
+        }
+    }
+}
